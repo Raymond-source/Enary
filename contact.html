@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Enary Helpers & Nannies</title>
+    <meta
+      name="description"
+      content="Get in touch with Enary Helpers & Nannies. Contact us for free consultations, questions about our services, or to find your perfect caregiver."
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/whatsapp-float.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="images/logo/enary.ico" />
+  </head>
+
+  <body>
+    <!-- Cookie Consent -->
+    <div id="cookie-consent" class="cookie-consent"></div>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-float" id="whatsapp-float"></div>
+
+    <!-- Header -->
+    <header id="main-header"></header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-text">
+          <h1>Contact Us</h1>
+          <p>
+            We're here to help you find the perfect caregiver for your family
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-main-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <h2>Send Us a Message</h2>
+            <p>
+              Fill out the form below and we'll get back to you within 24 hours.
+            </p>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name"
+                    >Full Name <span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email"
+                    >Email Address <span class="required">*</span></label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="service">Service Interested In</label>
+                  <select id="service" name="service" class="form-control">
+                    <option value="">Select a service</option>
+                    <option value="fulltime">Full-Time Nanny</option>
+                    <option value="parttime">Part-Time Helper</option>
+                    <option value="household">Household Helper</option>
+                    <option value="elderly">Elderly Companion</option>
+                    <option value="newborn">Newborn Specialist</option>
+                    <option value="emergency">Emergency Care</option>
+                    <option value="other">Other / Not Sure</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message"
+                  >Your Message <span class="required">*</span></label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  class="form-control"
+                  required
+                  placeholder="Tell us about your family's needs..."
+                ></textarea>
+              </div>
+
+              <div class="form-group consent-group">
+                <div class="consent-checkbox">
+                  <input type="checkbox" id="consent" name="consent" required />
+                  <label for="consent"
+                    >I consent to Enary Helpers & Nannies collecting and storing
+                    my data for the purpose of responding to my enquiry.
+                    <span class="required">*</span></label
+                  >
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn">
+                <span class="btn-text">Send Message</span>
+                <span class="spinner"
+                  ><i class="fas fa-spinner fa-spin"></i> Sending...</span
+                >
+              </button>
+
+              <div class="response-message" style="display: none"></div>
+            </form>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="contact-info-wrapper">
+            <div class="contact-info-card">
+              <h3>Get in Touch</h3>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>Call Us</h4>
+                    <p>
+                      <a href="tel:+27664575904" class="contact-link"
+                        >+27 66 457 5904</a
+                      >
+                    </p>
+                    <p class="contact-note">Mon-Fri, 8am-6pm</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>WhatsApp</h4>
+                    <p>
+                      <a
+                        href="https://wa.me/27664575904"
+                        class="contact-link"
+                        target="_blank"
+                        >+27 66 457 5904</a
+                      >
+                    </p>
+                    <p class="contact-note">Quickest response</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>Email Us</h4>
+                    <p>
+                      <a href="mailto:info@enary.co.za" class="contact-link"
+                        >info@enary.co.za</a
+                      >
+                    </p>
+                    <p class="contact-note">We reply within 24 hours</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>Visit Us</h4>
+                    <p>172 Eagle Street,</p>
+                    <p>Montana, Pretoria, 0002</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="emergency-contact">
+                <h4>
+                  <i class="fas fa-exclamation-circle"></i> Emergency Care
+                </h4>
+                <p>Need last-minute care? Call our emergency line:</p>
+                <a href="tel:+27812194023" class="emergency-number"
+                  >+27 81 219 4023</a
+                >
+                <p class="contact-note">Available 24/7 for urgent needs</p>
+              </div>
+
+              <div class="social-connect">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61586508505155"
+                    target="_blank"
+                    aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/toora-flex/"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" target="_blank" aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <div class="map-container">
+          <div class="map-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d308.74989236574316!2d28.277569000769937!3d-25.68912047257381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfdfc0cba7ad8f%3A0xd5deac8fdb86e26f!2s172%20Eagle%20St%2C%20Montana%20Park%2C%20Pretoria%2C%200182!5e0!3m2!1sen!2sza!4v1771789655221!5m2!1sen!2sza"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+          <div class="map-info">
+            <h3>Visit Our Office</h3>
+            <p>172 Eagle Street,Montana, Pretoria, 0002</p>
+            <div class="map-buttons">
+              <a
+                href="https://maps.google.com/?q=367+Helen+Joseph+Street+Pretoria+CBD"
+                target="_blank"
+                class="btn btn-secondary"
+                >Get Directions</a
+              >
+              <a href="contact.html" class="btn btn-primary"
+                >Schedule a Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Quick answers to common questions</p>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How quickly can you find me a nanny?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Typically within 3-7 business days, depending on your specific
+                requirements. For emergency care, we can often provide same-day
+                service.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What is your vetting process?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                All candidates undergo background checks, reference
+                verification, qualification verification, and in-person
+                interviews. We also check ID documents and police clearance
+                where applicable.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What are your service fees?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Our placement fee varies based on the type of service and
+                duration. Contact us for a personalized quote - we offer
+                competitive rates and payment plans.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer replacement guarantees?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes! If you're not completely satisfied with your placement
+                within the first month, we'll provide a replacement at no
+                additional cost.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer"></footer>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
