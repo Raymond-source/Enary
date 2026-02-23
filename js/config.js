@@ -5,7 +5,7 @@ const siteConfig = {
   emergencyNumber: "+27 62 042 4619",
   email: "info@enary.co.za",
   address: "172 Eagle Street, Montana Park, Pretoria.",
-  whatsappMessage: "Hello  Flex, I'd like more information about your packages",
+  whatsappMessage: "Hello Enary, I'd like more information about your services",
   socialLinks: {
     facebook: "https://www.facebook.com/profile.php?id=61586508505155",
     twitter: "#",
@@ -50,4 +50,5 @@ function formatPhoneNumber(phone) {
   }
   return phone;
 }
+
 
