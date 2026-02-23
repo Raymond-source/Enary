@@ -7,9 +7,9 @@ const siteConfig = {
   address: "172 Eagle Street, Montana Park, Pretoria.",
   whatsappMessage: "Hello Enary, I'd like more information about your services",
   socialLinks: {
-    facebook: "https://www.facebook.com/profile.php?id=61586508505155",
+    facebook: "#",
     twitter: "#",
-    linkedin: "https://www.linkedin.com/company/toora-flex/?viewAsMember=true",
+    linkedin: "#",
     instagram: "#",
   },
   services: [
@@ -50,5 +50,6 @@ function formatPhoneNumber(phone) {
   }
   return phone;
 }
+
 
 
