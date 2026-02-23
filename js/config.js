@@ -1,6 +1,6 @@
 // js/config.js
 const siteConfig = {
-  whatsappNumber: "27664575904",
+  whatsappNumber: "2762424619",
   phoneNumber: "+27 62 042 4619",
   emergencyNumber: "+27 62 042 4619",
   email: "info@enary.co.za",
@@ -50,3 +50,4 @@ function formatPhoneNumber(phone) {
   }
   return phone;
 }
+
