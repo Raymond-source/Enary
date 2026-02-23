@@ -5,26 +5,13 @@ const siteConfig = {
   emergencyNumber: "+27 62 042 4619",
   email: "info@enary.co.za",
   address: "172 Eagle Street, Montana Park, Pretoria.",
-  whatsappMessage: "Hello Enary, I'd like more information about your services",
+  whatsappMessage: "Hello  Flex, I'd like more information about your packages",
   socialLinks: {
-    facebook: "#",
+    facebook: "https://www.facebook.com/profile.php?id=61586508505155",
     twitter: "#",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/company/toora-flex/?viewAsMember=true",
     instagram: "#",
   },
-  services: [
-    { id: "website-design", name: "Website Design" },
-    { id: "web-apps", name: "Web Applications" },
-    { id: "hosting", name: "Hosting Solutions" },
-    { id: "surveys", name: "Surveys & Analytics" },
-    { id: "graphic-design", name: "Graphic Design" },
-    { id: "power-bi", name: "Power BI & Data Management" },
-    { id: "starter-package", name: "Starter Package" },
-    { id: "business-package", name: "Business Package" },
-    { id: "enterprise-package", name: "Enterprise Package" },
-    { id: "multiple", name: "Multiple Services" },
-    { id: "custom", name: "Custom Solution" },
-  ],
 };
 
 // Generate WhatsApp URL
@@ -50,6 +37,3 @@ function formatPhoneNumber(phone) {
   }
   return phone;
 }
-
-
-
