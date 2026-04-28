@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You - Tooraflex</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/whatsapp-float.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="images/logo/logo.ico" />
+  </head>
+  <body>
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float" id="whatsapp-float"></div>
+
+    <!-- Header -->
+    <header id="main-header"></header>
+
+    <!-- Thank You Content -->
+    <section
+      class="hero page-hero"
+      style="min-height: 80vh; display: flex; align-items: center"
+    >
+      <div class="container">
+        <div
+          class="success-container"
+          style="text-align: center; max-width: 600px; margin: 0 auto"
+        >
+          <div
+            class="success-icon"
+            style="
+              font-size: 80px;
+              color: var(--secondary);
+              margin-bottom: 30px;
+            "
+          >
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <h1>Thank You!</h1>
+          <p style="font-size: 1.2rem; margin-bottom: 30px; color: var(--gray)">
+            Your message has been sent successfully. We've received your inquiry
+            and our team will get back to you within 24 hours.
+          </p>
+          <p style="margin-bottom: 30px">
+            You should receive a confirmation email shortly. If you don't see
+            it, please check your spam folder.
+          </p>
+          <div
+            class="success-buttons"
+            style="
+              display: flex;
+              gap: 15px;
+              justify-content: center;
+              flex-wrap: wrap;
+            "
+          >
+            <a href="index.html" class="btn">
+              <i class="fas fa-home"></i> Back to Home
+            </a>
+            <a href="services.html" class="btn btn-secondary">
+              <i class="fas fa-list"></i> View Services
+            </a>
+            <a
+              href="contact.html"
+              class="btn"
+              style="
+                background-color: transparent;
+                border: 2px solid var(--primary);
+                color: var(--primary);
+              "
+            >
+              <i class="fas fa-envelope"></i> Send Another Message
+            </a>
+          </div>
+          <div
+            class="contact-info"
+            style="
+              margin-top: 40px;
+              padding: 20px;
+              background: var(--light);
+              border-radius: 8px;
+            "
+          >
+            <h3 style="margin-bottom: 15px">Need immediate assistance?</h3>
+            <p style="margin-bottom: 10px">
+              <i
+                class="fas fa-phone-alt"
+                style="color: var(--primary); margin-right: 10px"
+              ></i>
+              <a
+                href="tel:+27812194023"
+                style="color: var(--dark); text-decoration: none"
+                >+27 81 219 4023</a
+              >
+            </p>
+            <p>
+              <i
+                class="fas fa-envelope"
+                style="color: var(--primary); margin-right: 10px"
+              ></i>
+              <a
+                href="mailto:info@tooraflex.co.za"
+                style="color: var(--dark); text-decoration: none"
+                >info@tooraflex.co.za</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer"></footer>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+      // Redirect to home after 30 seconds
+      setTimeout(() => {
+        window.location.href = "index.html";
+      }, 30000);
+    </script>
+  </body>
+</html>
